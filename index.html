@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Attendance Managing app</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" href="index.css" />
+
+</head>
+
+<body>
+    <div class="formContainer">
+        <div class="heading">
+            <h>Manage Attendance</h>
+        </div>
+        <form id="form">
+            <label for="totalClassess">Total Classes :</label>
+            <input required type="number" id="totalClasses" />
+            <label for="classesMissed">Classes Missed :</label>
+            <input required type="number" id="classesMissed" />
+            <button type="submit">SUBMIT</button>
+            <div id="attendance">
+            </div>
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
